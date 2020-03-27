@@ -49,4 +49,3 @@ docker build -t <nameofImage:Tag> .
  ```
 docker run -it -d p5000:5000 <nameofImage> 
 ``` 
-```
