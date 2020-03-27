@@ -37,7 +37,11 @@ Enter valid numerical values in all 3 input boxes and hit Predict.
 If everything goes well, you should  be able to see the predcited salary vaule on the HTML page!
 ![alt text](http://www.thepythonblog.com/wp-content/uploads/2019/02/Result.png)
 
-4. Create a Dockerfile and package dependancies file (requirements.txt)
+4. Create a Dockerfile and package dependancies file (requirements.txt) using below commands:
+```
+pip freeze > requirements.txt
+
+```
 
 5. Build the image using this command:  
 ```
