@@ -39,11 +39,10 @@ If everything goes well, you should  be able to see the predcited salary vaule o
 
 4. Create a Dockerfile and package dependancies file (requirements.txt)
 
-5. Build the image using this command: ~$  
-'''
+5. Build the image using this command:  
+```
 docker build -t <nameofImage:Tag> . 
-
-'''
+```
 6. Confirm the successful creation of image by running $docker images.
 
 7. Now, run the image to create a container by this command: ~$ docker run -it -d p5000:5000 <nameofImage>
